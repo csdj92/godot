@@ -1,0 +1,17 @@
+G:\Godot Games\.godot\mono\temp\bin\Debug\RPG Biscuit.deps.json
+G:\Godot Games\.godot\mono\temp\bin\Debug\RPG Biscuit.runtimeconfig.json
+G:\Godot Games\.godot\mono\temp\bin\Debug\RPG Biscuit.dll
+G:\Godot Games\.godot\mono\temp\bin\Debug\RPG Biscuit.pdb
+G:\Godot Games\.godot\mono\temp\bin\Debug\GodotSharp.dll
+G:\Godot Games\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.csproj.AssemblyReference.cache
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.GeneratedMSBuildEditorConfig.editorconfig
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.AssemblyInfoInputs.cache
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.AssemblyInfo.cs
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.csproj.CoreCompileInputs.cache
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Bisc.E5168B3B.Up2Date
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.dll
+G:\Godot Games\.godot\mono\temp\obj\Debug\refint\RPG Biscuit.dll
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.pdb
+G:\Godot Games\.godot\mono\temp\obj\Debug\RPG Biscuit.genruntimeconfig.cache
+G:\Godot Games\.godot\mono\temp\obj\Debug\ref\RPG Biscuit.dll

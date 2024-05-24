@@ -1,0 +1,4 @@
+res://Scenes/Levels/main.tscn
+res://Scenes/Characters/Player/player.tscn
+res://Scripts/Levels/Main.cs
+res://Scripts/Characters/Player/Player.cs
