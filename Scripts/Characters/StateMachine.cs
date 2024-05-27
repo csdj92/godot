@@ -28,6 +28,7 @@ public partial class StateMachine : Node
             GD.PrintErr("State not found");
             return;
         }
+        currentState.Notification(5002);
         currentState = newState;
         currentState.Notification(5001);
     }

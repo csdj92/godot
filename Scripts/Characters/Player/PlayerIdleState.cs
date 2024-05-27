@@ -1,13 +1,9 @@
 using Godot;
 using System;
 
-public partial class PlayerIdleState : Node
+public partial class PlayerIdleState : PlayerState
 {
-	private Player characterNode;
-	public override void _Ready()
-	{
-		characterNode = GetOwner<Player>();
-	}
+
 
 	public override void _PhysicsProcess(double delta)
 	{
@@ -15,13 +11,22 @@ public partial class PlayerIdleState : Node
 		{
 			characterNode.stateMachineNode.SwitchState<PlayerMoveState>();
 		}
+
 	}
-	public override void _Notification(int what)
+
+
+	public override void _Input(InputEvent @event)
 	{
-		base._Notification(what);
-		if (what == 5001)
+		if (Input.IsActionJustPressed(GameConstants.INPUT_DASH))
 		{
-			characterNode.animationPlayerNode.Play(GameConstants.ANIM_IDLE);
+			characterNode.stateMachineNode.SwitchState<PlayerDashState>();
 		}
+
+	}
+
+	protected override void EnterState()
+	{
+		base.EnterState();
+		characterNode.animationPlayerNode.Play(GameConstants.ANIM_IDLE);
 	}
 }
