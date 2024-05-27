@@ -8,7 +8,7 @@ public partial class StateMachine : Node
 
     public override void _Ready()
     {
-        currentState.Notification(5001);
+        currentState.Notification(GameConstants.Notification_Enter_State);
 
     }
 
@@ -28,8 +28,8 @@ public partial class StateMachine : Node
             GD.PrintErr("State not found");
             return;
         }
-        currentState.Notification(5002);
+        currentState.Notification(GameConstants.Notification_Exit_State);
         currentState = newState;
-        currentState.Notification(5001);
+        currentState.Notification(GameConstants.Notification_Enter_State);
     }
 }

@@ -4,10 +4,11 @@ using System;
 public partial class Player : CharacterBody3D
 {
     [ExportGroup("Required Nodes")]
-    [Export] public AnimationPlayer animationPlayerNode;
-    [Export] public Sprite3D spriteNode;
+    [Export] public AnimationPlayer AnimationPlayerNode { get; private set; }
+    [Export] public Sprite3D SpriteNode { get; private set; }
+    [Export] public StateMachine StateMachineNode { get; private set; }
+
     public Vector2 direction = Vector2.Zero;
-    [Export] public StateMachine stateMachineNode;
     public override void _PhysicsProcess(double delta)
     {
 
@@ -24,6 +25,6 @@ public partial class Player : CharacterBody3D
         bool isNotMovingHorizontally = Velocity.X == 0;
         if (isNotMovingHorizontally) { return; } // No need to flip if we're not moving horizontally;
         bool flip = Velocity.X < 0;
-        spriteNode.FlipH = flip;
+        SpriteNode.FlipH = flip;
     }
 }
